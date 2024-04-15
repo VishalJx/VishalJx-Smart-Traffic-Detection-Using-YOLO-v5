@@ -58,3 +58,11 @@ After completing the above steps your directory should look like somewhat as of 
 python tracker.py
 # This will download model weight - yolov5s.pt to base folder on first execution.
 ```
+
+## Working Idea
+
+[Graphical Deo](simulation_demo.mp4)
+
+- The main idea is to examine live video feeds of traffic intersections using YOLO(You Only Look Once) algorithm.
+- The system determines the **lane-specific car density** by detecting and tracking vehicles.
+- Afterwards, lanes with a higher vehicle density receive green signals, which maximizes traffic flow and reduces wait times.
