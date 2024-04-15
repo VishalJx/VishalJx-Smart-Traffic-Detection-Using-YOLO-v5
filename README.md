@@ -61,7 +61,7 @@ python tracker.py
 
 ## Working Idea
 
-[Graphical Demo](https://github.com/VishalJx/VishalJx-Smart-Traffic-Detection-Using-YOLO-v5/assets/stimulation.mp4)
+https://github.com/VishalJx/VishalJx-Smart-Traffic-Detection-Using-YOLO-v5/assets/99538455/e819c962-f215-4f9e-b663-cea57b900a2b
 
 - The main idea is to examine live video feeds of traffic intersections using YOLO(You Only Look Once) algorithm.
 - The system determines the **lane-specific car density** by detecting and tracking vehicles.
