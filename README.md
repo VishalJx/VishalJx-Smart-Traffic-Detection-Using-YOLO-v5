@@ -1,13 +1,12 @@
 <div align="center">
 
-# Vehicle Counting using Yolov5 and Deep Sort
+# Smart Traffic Detection using YOLO-5 and Deep-Sort
 
 </div>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
@@ -15,51 +14,47 @@
 <img src="assets/output.gif" width="1000px" height="600px">
 </div>
 
+### On CPU - `12 to 15 FPS`
 
+### Python version - `Python 3.8.8 - Python 3.10.10`
 
-### On CPU - `12 to 15 FPS` 
+## Pre-requisites :
 
-## Pre-requisites : 
-
-1) Clone the Repository [vehicle-counting-yolov5](https://github.com/mahimairaja/vehicle-counting-yolov5)
+1. Clone the Repository [vehicle-counting-yolov5](https://github.com/VishalJx/VishalJx-Smart-Traffic-Detection-Using-YOLO-v5.git)
 
 ```bash
-git clone https://github.com/mahimairaja/vehicle-counting-yolov5.git
-
-cd vehicle-counting-yolov5
+mkdir LaneSense
+cd LaneSense
+git clone https://github.com/VishalJx/VishalJx-Smart-Traffic-Detection-Using-YOLO-v5.git
 ```
 
-2) Clone the legacy Yolo-v5 Repository
+2. Clone the legacy Yolo-v5 Repository
 
 ```bash
 git clone https://github.com/ultralytics/yolov5.git
 ```
-   
-3) Install the libraries
+
+3. Install the libraries
+
 ```bash
 pip install -r requirements.txt
 ```
-
-
-
 
 ## Directory Structure :
 
 After completing the above steps your directory should look like somewhat as of below structure
 
 - `vehicle-counting-yolov5`
-   - deep_sort
-   - yolov5
-   - input.mp4
-   - yolov5s.pt
-   - tracker.py
-   - requirements.txt
+  - deep_sort
+  - yolov5
+  - input.mp4
+  - yolov5s.pt
+  - tracker.py
+  - requirements.txt
 
-## Run the algorithm 
+## Run the algorithm
 
-``` bash
-python tracker.py 
+```bash
+python tracker.py
 # This will download model weight - yolov5s.pt to base folder on first execution.
 ```
-
-#### Feel free to [conect with me](https://www.linkedin.com/in/mahimairaja/)...
