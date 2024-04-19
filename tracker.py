@@ -1,10 +1,3 @@
-"""
-Author: Mahimai Raja J
-Social : https://www.linkedin.com/in/mahimairaja/
-This script is used to count the number of vehicles from a camera feed.
-"""
-
-
 import os
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
